@@ -9,7 +9,7 @@ This is a keras implementation of the paper [Drop an Octave: Reducing Spatial Re
 
 
 ![](fig/fig1.png)
-
+### Separating the low and high spatial frequency signal
 ![](fig/fig2.png)
 
 
