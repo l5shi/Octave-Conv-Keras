@@ -13,7 +13,7 @@ This is a keras implementation of the paper [Drop an Octave: Reducing Spatial Re
 ![](fig/fig2.png)
 
 ## Detailed design of the Octave Convolution
-1. Green arrows correspond to information updates 
-2. red arrows facilitate information exchange between the two frequencies.
+* Green arrows correspond to information updates 
+* Red arrows facilitate information exchange between the two frequencies.
 
 ![](fig/octave.png)
