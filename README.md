@@ -11,7 +11,7 @@ This is a keras implementation of the paper [Drop an Octave: Reducing Spatial Re
 
 ![](fig/fig1.png)
 ![](fig/fig2.png)
-     |   |
+    (a) |  (b) | (c)
 :-------------------------:|:-------------------------: |:-------------------------: 
 The output maps of a convolution layer can also be factorized and grouped by their spatial frequency |  The output maps of a convolution layer can also be factorized and grouped by their spatial frequency.  |   The proposed Octave Convolution operates directly on this representation. It updates the information for each group and further enables information exchange between groups.
 
