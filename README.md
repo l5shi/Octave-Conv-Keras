@@ -1,5 +1,5 @@
 ![](https://img.shields.io/badge/language-python_keras-orange.svg)
-![](https://img.shields.io/badge/progress-20-green.svg)
+![](https://img.shields.io/badge/progress-half-green.svg)
 [![](https://img.shields.io/badge/reference-paper-blue.svg)](https://arxiv.org/abs/1904.05049)
 # OCTAVE_CONVOLUTION
 
