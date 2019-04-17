@@ -6,12 +6,14 @@
 This is a keras implementation of the paper [Drop an Octave: Reducing Spatial Redundancy in Convolutional Neural Networks with Octave Convolution.](https://arxiv.org/abs/1904.05049)
 
 
-### Separating the low and high spatial frequency signal
+## Separating the low and high spatial frequency signal
 
 
 ![](fig/fig1.png)
 ![](fig/fig2.png)
 
-### Detailed design of the Octave Convolution. Green arrows correspond to information updates while red arrows facilitate information exchange between the two frequencies.
+## Detailed design of the Octave Convolution. 
+1.Green arrows correspond to information updates 
+2.red arrows facilitate information exchange between the two frequencies.
 
 ![](fig/octave.png)
