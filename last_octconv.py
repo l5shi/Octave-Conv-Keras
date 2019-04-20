@@ -12,9 +12,10 @@ def lastOctConv(hf_data, lf_data, settings, ch_in, ch_out, name, kernel=(1,1), p
  
     if stride == (2, 2):
         hf_data = AvgPool2D(kernel_size=(2,2), strides=(2,2), padding='valid')(hf_data)
+        lf_data = AvgPool2D(kernel_size=(2,2), strides=(2,2), padding='valid')(lf_data)
 
-    hf_conv = Conv2D(filters=hf_ch_out, kernel=kernel, strides=strides, padding=pad)(hf_data)
-    lf_conv = Conv2D(filters=lf_ch_out, kernel_size=kernel_size, padding=pad, strides=strides)(lf_data)
+    hf_conv = Conv2D(filters=hf_ch_out, kernel_size=kernel_size, padding=pad, strides=strides)(hf_data)
+    lf_conv = Conv2D(filters=hf_ch_out, kernel_size=kernel_size, padding=pad, strides=strides)(lf_data)
 
     out_h = hf_conv + lf_conv
 
